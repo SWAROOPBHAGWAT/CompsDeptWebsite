@@ -1,180 +1,1327 @@
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="../style/nav.css" />
-    <link rel="stylesheet" href="../style/main.css" />
-    <link rel="stylesheet" href="../style/footer.css" />
-    <title>Internship Record</title>
-    <script src="../temp.js" defer></script>
-  </head>
-  <body class="bg-white">
-    <div id="navbar"></div>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+                <!-- head -->
+        <base href="https://comps.dbit.in/index.php/placement-internship/internship-record" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Internship Record</title>
+	<link href="/images/imageedit_1_2560433786.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/components/com_sppagebuilder/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_sppagebuilder/assets/css/animate.min.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_sppagebuilder/assets/css/sppagebuilder.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_sppagebuilder/assets/css/sppagecontainer.css" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/jce/css/content.css?61e1a04a2dcac1ed91419ee1188fadb9" rel="stylesheet" type="text/css" />
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic&amp;subset=latin" rel="stylesheet" type="text/css" />
+	<link href="/templates/shaper_helix3/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/shaper_helix3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/shaper_helix3/css/legacy.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/shaper_helix3/css/template.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/shaper_helix3/css/presets/preset1.css" rel="stylesheet" type="text/css" class="preset" />
+	<link href="/plugins/system/helix3/assets/css/pagebuilder.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/shaper_helix3/css/frontend-edit.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_sppagebuilder/assets/css/magnific-popup.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+.sp-page-builder .page-content #section-id-1546510315726{padding: 50px 0px 50px 0px;margin: 0px 0px 0px 0px;}#column-id-1546510315725{box-shadow: 0 0 0 0 #fff;}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1670831698177 {}}@media (max-width: 767px) {#sppb-addon-1670831698177 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1582017763322 {}}@media (max-width: 767px) {#sppb-addon-1582017763322 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1551940364713 {}}@media (max-width: 767px) {#sppb-addon-1551940364713 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1546510315755 {}}@media (max-width: 767px) {#sppb-addon-1546510315755 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1551940443896 {}}@media (max-width: 767px) {#sppb-addon-1551940443896 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1627233080280 {}}@media (max-width: 767px) {#sppb-addon-1627233080280 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1546510315729 {}}@media (max-width: 767px) {#sppb-addon-1546510315729 {}}
+body{font-family:Open Sans, sans-serif; font-weight:300; }
+h1{font-family:Open Sans, sans-serif; font-weight:800; }
+h2{font-family:Open Sans, sans-serif; font-weight:600; }
+h3{font-family:Open Sans, sans-serif; font-weight:normal; }
+h4{font-family:Open Sans, sans-serif; font-weight:normal; }
+h5{font-family:Open Sans, sans-serif; font-weight:600; }
+h6{font-family:Open Sans, sans-serif; font-weight:600; }
+#sp-header > div {
+  padding-left: 0px;
+  padding-right: 8px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
-    <main>
-      <div class="row px-5 m-0">
-        <div class="row justify-content-center text-center p-3">
-          <h1>Internship Records</h1>
-        </div>
-        <div class="row">
-          <div class="col">
-            <table class="table table-bordered">
-              <thead class="table-dark">
-                <tr>
-                  <th scope="col">Sr no.</th>
-                  <th scope="col">Student</th>
-                  <th scope="col">Company</th>
-                  <th scope="col">Start Date</th>
-                  <th scope="col">End Date</th>
-                </tr>
-              </thead>
-              <tbody class="table-group-divider">
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Daksh Gupta</td>
-                  <td>Indian Oil Corporation</td>
-                  <td>15-06-2017</td>
-                  <td>15-07-2017</td>
-                </tr>
-                <tr class="bg-light">
-                  <th scope="row">2</th>
-                  <td>Shivam Mishra</td>
-                  <td>Frappe Technologies</td>
-                  <td>15-06-2017</td>
-                  <td>15-08-2017</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Ashish Sharma</td>
-                  <td>Balcony Tachnologies</td>
-                  <td>01-07-2017</td>
-                  <td>01-08-2017</td>
-                </tr>
-                <tr class="bg-light">
-                  <th scope="row">4</th>
-                  <td>Sharanya Hegde</td>
-                  <td>Pristine Inc Pvt Ltd</td>
-                  <td>10-06-2017</td>
-                  <td>06-07-2017</td>
-                </tr>
-                <tr>
-                  <th scope="row">5</th>
-                  <td>Shruti Iyer</td>
-                  <td>Godrej Infotech Ltd</td>
-                  <td>12-06-2017</td>
-                  <td>11-07-2017</td>
-                </tr>
-                <tr class="bg-light">
-                  <th scope="row">6</th>
-                  <td>Catherin Johnson</td>
-                  <td>Salaam Balaak</td>
-                  <td>18-06-2017</td>
-                  <td>28-07-2017</td>
-                </tr>
-                <tr>
-                  <th scope="row">7</th>
-                  <td>Deepika Gurav</td>
-                  <td>Salaam Balaak</td>
-                  <td>18-06-2017</td>
-                  <td>28-07-2017</td>
-                </tr>
-                <tr class="bg-light">
-                  <th scope="row">8</th>
-                  <td>Gloria Dias</td>
-                  <td>Salaam Balaak</td>
-                  <td>18-06-2017</td>
-                  <td>28-07-2017</td>
-                </tr>
-                <tr>
-                  <th scope="row">9</th>
-                  <td>Raina Lopes</td>
-                  <td>Sizzle Labs Gennext Innovation Hub</td>
-                  <td>12-06-2017</td>
-                  <td>30-06-2017</td>
-                </tr>
-                <tr class="bg-light">
-                  <th scope="row">10</th>
-                  <td>Lawrence Fernandes</td>
-                  <td>TBuyRight Pvt Ltd.</td>
-                  <td>10-06-2017</td>
-                  <td>10-09-2017</td>
-                </tr>
-                <tr>
-                  <th scope="row">11</th>
-                  <td>Sheldon Carvalho</td>
-                  <td>TBuyRight Pvt Ltd.</td>
-                  <td>10-06-2017</td>
-                  <td>10-09-2017</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="col">
-            <div id="2017internship" style="height: 30rem"></div>
-          </div>
-        </div>
-      </div>
-    </main>
+#sp-top2 > div > table > tbody > tr > td > ul > li > a {
+  color: white;
+}
+#sp-top2 > div > table > tbody > tr > td > ul > li > a:hover {
+  color: black;
+}
 
-    <div class="container pt-5">
-      <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-      >
-        <div class="col-md d-flex align-items-center">
-          <span class="text-muted"
-            >&copy; Don Bosco Institute Of Technology Designed & Maintained by
-            Website team</span
-          >
-        </div>
+#sp-top2 {
+  background-color: black;
+}
 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">
-            <a class="text-muted" href="#"
-              ><i class="bi bi-facebook footer-icon"></i
-            ></a>
-          </li>
-          <li class="ms-3">
-            <a class="text-muted" href="#"
-              ><i class="bi bi-youtube footer-icon"></i
-            ></a>
-          </li>
-          <li class="ms-3">
-            <a class="text-muted" href="#"
-              ><i class="bi bi-instagram footer-icon"></i
-            ></a>
-          </li>
-        </ul>
-      </footer>
-    </div>
+#sp-main-body {
+  padding: 0px 0;
+}
 
-    <!-- scripts start  -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
-    <script src="nav.js"></script>
-    <script
-      type="text/javascript"
-      src="https://www.gstatic.com/charts/loader.js"
-    ></script>
+.sp-megamenu-parent {
+  x-overflow: auto;
+}
 
-    <!-- internship graphs  -->
-    <script src="/placement&internship/internship graphs/2017Batch.js"></script>
+.try {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
 
-    <!-- scripts end  -->
-  </body>
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.button {
+  background-color: #58b9da; /* Green */
+  border: none;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: #f2f2f2;
+  color: black;
+  border: 2px solid #008cba;
+}
+
+#sp-top-bar {
+  padding: 0px 0;
+}
+
+body {
+  font-weight: 500;
+}
+
+.sp-megamenu-parent > li > a {
+  line-height: 40px;
+  color: #ffffff;
+}
+
+#sp-header {
+  height: 40px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#sp-main-body {
+  padding: 0px 0px;
+}
+
+.nav > li > a:hover {
+  background-color: white;
+}
+
+.nav > li > a:focus {
+  background-color: black;
+}
+
+div#sp-menu {
+  width: 1250px;
+}
+
+#sp-menu > div > div > ul > li > a {
+  font-size: 10px;
+  color: white;
+  font-weight: bold;
+}
+.sp-megamenu-parent > li.active > a {
+  background-color: #22b8f0;
+}
+/*
+    #FF4500
+    */
+table {
+  border-radius: 20px;
+  border-collapse: separate;
+}
+
+td {
+  border: none;
+  border-bottom: 1px solid black;
+}
+#sppb-addon-1567064002570 > div > div > div > table > tbody > tr:hover {
+  background-color: black;
+  color: white;
+}
+#sppb-addon-1541238498015 > div > div > div > table > tbody > tr:hover {
+  background-color: black;
+  color: white;
+}
+tr:last-child {
+  border: none;
+}
+
+tr:nth-child(odd) {
+  background-color: #ccc;
+}
+tr:hover {
+  background-color: black;
+  color: white !important;
+}
+.table-hover tr:hover {
+  background-color: black;
+  color: white;
+}
+.moduletable {
+  background-color: black;
+}
+
+.sp-module-content {
+  background: white;
+}
+
+.sp-dropdown {
+  color: black;
+}
+
+#sp-top-bar {
+  color: black;
+}
+
+#sppb-addon-1573630816079 > div > div > div > .noHover {
+  pointer-events: none;
+}
+#sppb-addon-1534583037845 {
+  pointer-events: none;
+}
+#sppb-addon-1573630816079 {
+  pointer-events: none;
+}
+#sppb-addon-1530511906430 {
+  pointer-events: none;
+}
+#sppb-addon-1530513566904 {
+  pointer-events: none;
+}
+#sppb-addon-1530513567458 {
+  pointer-events: none;
+}
+#sppb-addon-1541771037529 tr:hover {
+  color: white;
+  background-color: black;
+}
+#section-id-1537609211999 tr:hover {
+  color: white;
+  background-color: black;
+}
+#sp-top2 > div > table > tbody > tr {
+  background-color: black;
+  color: white;
+}
+#sppb-addon-1541237200005 tr:hover {
+  color: white;
+  background-color: black;
+}
+#sppb-addon-1541238214307 tr:hover {
+  color: white;
+  background-color: black;
+}
+#sppb-addon-1581656345834 tr:hover {
+  color: white;
+  background-color: black;
+}
+
+#sppb-addon-1542349707437 tr:hover {
+  color: white;
+  background-color: black;
+}
+#sppb-addon-1582017077351 {
+  pointer-events: none;
+}
+
+#sppb-addon-1540273074302 {
+  pointer-events: none;
+}
+
+.new-look .offcanvas-menu .sp-module ul > li > a {
+  color: black;
+}
+
+.offcanvas-menu {
+  background-color: black;
+  overflow-x: visible;
+}
+
+#offcanvas-toggler > i {
+  color: white;
+}
+
+#offcanvas-toggler {
+  line-height: 75px;
+}
+
+.try tr:hover {
+  color: #fff;
+}
+
+
+tr:hover span{
+    color: #fff;
+}
+
+
+#sp-top-bar{ background-color:#000000;color:#999999; }
+#sp-header{ background-color:#000000; }
+#sp-main-body{ background-color:#f5f5f5; }
+#sp-footer{ background-color:#000000; }
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"db8e5337384d11cda31f871931e4a895","system.paths":{"root":"","base":""},"joomla.jtext":{"COM_SPPAGEBUILDER_FRONTEND_EDITOR":"Frontend Editor","COM_SPPAGEBUILDER_PREVIEW":"Preview","COM_SPPAGEBUILDER_APPLY":"Apply","COM_SPPAGEBUILDER_CANCEL":"Cancel","COM_SPPAGEBUILDER_MEDIA_MANAGER":"Media Manager","COM_SPPAGEBUILDER_MEDIA_MANAGER_UPLOAD_FILES":"Upload Files","COM_SPPAGEBUILDER_MEDIA_MANAGER_CLOSE":"Close Modal","COM_SPPAGEBUILDER_MEDIA_MANAGER_INSERT":"Insert","COM_SPPAGEBUILDER_MEDIA_MANAGER_SEARCH":"Search","COM_SPPAGEBUILDER_MEDIA_MANAGER_CANCEL":"Cancel","COM_SPPAGEBUILDER_MEDIA_MANAGER_DELETE":"Delete","COM_SPPAGEBUILDER_MEDIA_MANAGER_CONFIRM_DELETE":"You are about to permanently delete this item. 'Cancel' to stop, 'OK' to delete.","COM_SPPAGEBUILDER_MEDIA_MANAGER_LOAD_MORE":"Load More","COM_SPPAGEBUILDER_MEDIA_MANAGER_UNSUPPORTED_FORMAT":"File format not supported.","COM_SPPAGEBUILDER_MEDIA_MANAGER_BROWSE_MEDIA":"Browse Media","COM_SPPAGEBUILDER_MEDIA_MANAGER_BROWSE_FOLDERS":"Browse Folders","COM_SPPAGEBUILDER_MEDIA_MANAGER_CREATE_FOLDER":"New Folder","COM_SPPAGEBUILDER_ADDON_ICON_SELECT":"Select Icon","COM_SPPAGEBUILDER_MEDIA_MANAGER_ENTER_DIRECTORY_NAME":"Please enter the name of the directory which should be created.","COM_SPPAGEBUILDER_MEDIA_MANAGER_MEDIA_UPLOADING":"Uploading","COM_SPPAGEBUILDER_MEDIA_MANAGER_UPLOAD_FAILED":"Upload Failed","COM_SPPAGEBUILDER_MEDIA_MANAGER_MEDIA_LARGE":"This file is too large to upload.","COM_SPPAGEBUILDER_MEDIA_MANAGER_FILE_NOT_SUPPORTED":"File not supported","COM_SPPAGEBUILDER_ROW_OPTIONS":"Row Options","COM_SPPAGEBUILDER_ADD_NEW_ROW":"Add New Row","COM_SPPAGEBUILDER_DUPLICATE_ROW":"Duplicate row","COM_SPPAGEBUILDER_DISABLE_ROW":"Disable Row","COM_SPPAGEBUILDER_ENABLE_ROW":"Enable Row","COM_SPPAGEBUILDER_COPY_ROW":"Copy Row","COM_SPPAGEBUILDER_ROW_COPIED":"Copied","COM_SPPAGEBUILDER_PASTE_ROW":"Paste Row","COM_SPPAGEBUILDER_DELETE_ROW":"Delete Row","COM_SPPAGEBUILDER_ROW_TOGGLE":"Toggle Row","COM_SPPAGEBUILDER_DELETE_ROW_CONFIRMATION":"Do you really want to delete this row?","COM_SPPAGEBUILDER_ROW_COLUMNS_MANAGEMENT":"Add\/Manage Columns","COM_SPPAGEBUILDER_ROW_COLUMNS_CUSTOM":"Custom","COM_SPPAGEBUILDER_ROW_COLUMNS_GENERATE":"Generate","COM_SPPAGEBUILDER_IMPORT_PAGE":"Import","COM_SPPAGEBUILDER_IMPORT_PAGE_ALT":"Import","COM_SPPAGEBUILDER_EXPORT_PAGE":"Export","COM_SPPAGEBUILDER_PAGE_TEMPLATES":"Page Templates","COM_SPPAGEBUILDER_UNDO":"Undo","COM_SPPAGEBUILDER_REDO":"Redo","COM_SPPAGEBUILDER_SAVE":"Save","COM_SPPAGEBUILDER_SAVE_ROW":"Save Row","COM_SPPAGEBUILDER_ROW_COLUMNS_OPTIONS":"Column Options","COM_SPPAGEBUILDER_DELETE_COLUMN":"Delete Column","COM_SPPAGEBUILDER_ADD_NEW_ADDON":"Add New Addon","COM_SPPAGEBUILDER_ADDON":"Addon","COM_SPPAGEBUILDER_DELETE_ADDON":"Delete Addon","COM_SPPAGEBUILDER_DUPLICATE_ADDON":"Clone Addon","COM_SPPAGEBUILDER_EDIT_ADDON":"Edit Addon","COM_SPPAGEBUILDER_ADDONS_LIST":"Addons List","COM_SPPAGEBUILDER_ALL":"All","COM_SPPAGEBUILDER_MODAL_CLOSE":"Close Modal","COM_SPPAGEBUILDER_DISABLE_COLUMN":"Disable Column","COM_SPPAGEBUILDER_ENABLE_COLUMN":"Enable Column","COM_SPPAGEBUILDER_YES":"Yes","COM_SPPAGEBUILDER_NO":"No","COM_SPPAGEBUILDER_PAGE_TEMPLATES_LIST":"Template List","COM_SPPAGEBUILDER_PAGE_TEMPLATE_LOAD":"Import","COM_SPPAGEBUILDER_ENABLE_ADDON":"Enable Addon","COM_SPPAGEBUILDER_DISABLE_ADDON":"Disable Addon","COM_SPPAGEBUILDER_ADDON_PARENT_COLUMN":"Parent Column","COM_SPPAGEBUILDER_ADD_NEW_INNER_ROW":"Add Inner Row","COM_SPPAGEBUILDER_MOVE_COLUMN":"Move Column","COM_SPPAGEBUILDER_DAY":"Day","COM_SPPAGEBUILDER_DAYS":"Days","COM_SPPAGEBUILDER_HOUR":"Hour","COM_SPPAGEBUILDER_HOURS":"Hours","COM_SPPAGEBUILDER_MINUTE":"Minute","COM_SPPAGEBUILDER_MINUTES":"Minutes","COM_SPPAGEBUILDER_SECOND":"Second","COM_SPPAGEBUILDER_SECONDS":"Seconds","COM_SPPAGEBUILDER_ADDON_OPTIN_FORM_SUBCSCRIBE":"Subscribe","COM_SPPAGEBUILDER_ADDON_AJAX_CONTACT_NAME":"Name","COM_SPPAGEBUILDER_ADDON_AJAX_CONTACT_EMAIL":"Email"}}</script>
+	<script src="/media/system/js/core.js?61e1a04a2dcac1ed91419ee1188fadb9" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery.min.js?61e1a04a2dcac1ed91419ee1188fadb9" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?61e1a04a2dcac1ed91419ee1188fadb9" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?61e1a04a2dcac1ed91419ee1188fadb9" type="text/javascript"></script>
+	<script src="/components/com_sppagebuilder/assets/js/sppagebuilder.js" type="text/javascript"></script>
+	<script src="/templates/shaper_helix3/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/templates/shaper_helix3/js/jquery.sticky.js" type="text/javascript"></script>
+	<script src="/templates/shaper_helix3/js/main.js" type="text/javascript"></script>
+	<script src="/templates/shaper_helix3/js/frontend-edit.js" type="text/javascript"></script>
+	<script src="/components/com_sppagebuilder/assets/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(document).ready(function($){'use strict';
+				$( '#sppb-addon-1546510315729' + ' .sppb-addon-accordion .sppb-panel-heading').removeClass('active');
+				$( '#sppb-addon-1546510315729' + ' .sppb-addon-accordion .sppb-panel-collapse').hide();
+			});
+var sp_preloader = '1';
+
+var sp_gotop = '1';
+
+var sp_offanimation = 'drarkplus';
+
+	</script>
+	<meta content="Internship Record" property="og:title" />
+	<meta content="website" property="og:type"/>
+	<meta content="https://comps.dbit.in/index.php/placement-internship/internship-record" property="og:url" />
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131244438-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131244438-1');
+</script>
+
+    </head>
+
+    <body class="site com-sppagebuilder view-page no-layout no-task itemid-116 en-gb ltr  sticky-header layout-boxed off-canvas-menu-init">
+
+        <div class="body-wrapper">
+            <div class="body-innerwrapper">
+                <div class="sp-pre-loader"><div class="sp-loader-circle"></div></div><section id="sp-top-bar" class=" hidden-xs hidden-sm"><div class="container"><div class="row"><div id="sp-top2" class="col-sm-12 col-md-12 hidden-sm hidden-xs"><div class="sp-column ">	<table cellpadding="0" cellspacing="0" class="moduletable">
+			<tr>
+			<td>
+				<ul class="nav menunav navbar-nav">
+<li class="item-164">		<a href="http://www.dbit.in/" rel="noopener noreferrer" target="_blank" > DBIT Home</a></li><li class="item-165">		<a href="http://parent.dbit.in/" rel="noopener noreferrer" target="_blank" > Parent Login</a></li><li class="item-186">		<a href="https://alumni.dbit.in/" rel="noopener noreferrer" target="_blank" > Alumni</a></li><li class="item-166">		<a href="http://moodle.dbit.in/" rel="noopener noreferrer" target="_blank" > Moodle</a></li><li class="item-167">		<a href="http://dbcldrive.dbit.in/" rel="noopener noreferrer" target="_blank" > DBCL Drive</a></li><li class="item-187">		<a href="http://dbitlrc.dbit.in/" rel="noopener noreferrer" target="_blank" > Library</a></li></ul>
+			</td>
+		</tr>
+		</table>
+	<ul class="sp-contact-info"></ul></div></div></div></div></section><section id="sp-section-2" class=" hidden-md"><div class="container"><div class="row"><div id="sp-topmob" class="col-sm-12 col-md-12 hidden-md hidden-lg"><div class="sp-column "><div class="sp-module "><div class="sp-module-content"><div class="mod-sppagebuilder  sp-page-builder" >
+	<div class="page-content">
+		<div id="section-id-1530688315563" class="sppb-section "  ><div class="sppb-container-inner"><div class="sppb-row"><div class="sppb-col-md-12"><div id="column-id-1530688315562" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-1530688315566" class="clearfix" ><div class="sppb-addon sppb-addon-text-block 0  "><div class="sppb-addon-content"><style type="text/css">html, body {
+  height: 100%;
+  margin: 0;
+}
+.grid2x2 {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+justify-content: center;
+}
+.grid2x2 > div {
+  display: flex; 
+  flex-basis: calc(50% - 40px);  
+  justify-content: center;
+  flex-direction: column;
+}
+.grid2x2 > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+color:white;
+}
+
+.box2{
+padding:0px, 0px, 0px, 20px;
+}</style>
+<div class="grid2x2">
+<div class="box box1">
+<div><a style="color: white; font-weight: bold;" href="http://www.dbit.in/" target="_blank" rel="noopener">DBIT Home</a></div>
+</div>
+<div class="box box2">
+<div><a style="color: white; font-weight: bold;" href="http://parent.dbit.in/" target="_blank" rel="noopener">Parent Login</a></div>
+</div>
+<div class="box box3">
+<div><a style="color: white; font-weight: bold;" href="http://moodle.dbit.in/" target="_blank" rel="noopener">Moodle</a></div>
+</div>
+<div class="box box4">
+<div><a style="color: white; font-weight: bold;" href="https://dbcldrive.dbit.in/" target="_blank" rel="noopener">DBCL Drive</a></div>
+</div>
+</div></div></div></div></div></div></div></div></div></div><style type="text/css">.sp-page-builder .page-content #section-id-1546510315726{padding: 50px 0px 50px 0px;margin: 0px 0px 0px 0px;}#column-id-1546510315725{box-shadow: 0 0 0 0 #fff;}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1670831698177 {}}@media (max-width: 767px) {#sppb-addon-1670831698177 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1582017763322 {}}@media (max-width: 767px) {#sppb-addon-1582017763322 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1551940364713 {}}@media (max-width: 767px) {#sppb-addon-1551940364713 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1546510315755 {}}@media (max-width: 767px) {#sppb-addon-1546510315755 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1551940443896 {}}@media (max-width: 767px) {#sppb-addon-1551940443896 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1627233080280 {}}@media (max-width: 767px) {#sppb-addon-1627233080280 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1546510315729 {}}@media (max-width: 767px) {#sppb-addon-1546510315729 {}}.sp-page-builder .page-content #section-id-1530089994045{margin-top: 10px;margin-right: -55px;margin-left: -55px;}#column-id-1530089994044{box-shadow: 0 0 0 0 #fff;}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1530089994048 {}}@media (max-width: 767px) {#sppb-addon-1530089994048 {}}#sppb-addon-1530089994048 img{}.sp-page-builder .page-content #section-id-1530688315563{margin-top: 0px;margin-right: -15px;margin-bottom: 0px;margin-left: -15px;background-color:#000000;}#column-id-1530688315562{box-shadow: 0 0 0 0 #fff;}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1530688315566 {}}@media (max-width: 767px) {#sppb-addon-1530688315566 {}}</style>	</div>
+</div>
+</div></div></div></div></div></div></section><section id="sp-banner"><div class="container"><div class="row"><div id="sp-banner" class="col-sm-12 col-md-12"><div class="sp-column "><div class="sp-module "><div class="sp-module-content"><div class="mod-sppagebuilder  sp-page-builder" >
+	<div class="page-content">
+		<div id="section-id-1530089994045" class="sppb-section "  ><div class="sppb-container-inner"><div class="sppb-row"><div class="sppb-col-md-12"><div id="column-id-1530089994044" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-1530089994048" class="clearfix" ><div class="sppb-addon sppb-addon-single-image  "><div class="sppb-addon-content"><div class="sppb-addon-single-image-container"><img class="sppb-img-responsive" src="/images/2018/08/21/comps-banner-min-min.jpg" alt="comps-banner-min-min.jpg" title=""></div></div></div></div></div></div></div></div></div></div><style type="text/css">.sp-page-builder .page-content #section-id-1546510315726{padding: 50px 0px 50px 0px;margin: 0px 0px 0px 0px;}#column-id-1546510315725{box-shadow: 0 0 0 0 #fff;}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1670831698177 {}}@media (max-width: 767px) {#sppb-addon-1670831698177 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1582017763322 {}}@media (max-width: 767px) {#sppb-addon-1582017763322 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1551940364713 {}}@media (max-width: 767px) {#sppb-addon-1551940364713 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1546510315755 {}}@media (max-width: 767px) {#sppb-addon-1546510315755 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1551940443896 {}}@media (max-width: 767px) {#sppb-addon-1551940443896 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1627233080280 {}}@media (max-width: 767px) {#sppb-addon-1627233080280 {}}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1546510315729 {}}@media (max-width: 767px) {#sppb-addon-1546510315729 {}}.sp-page-builder .page-content #section-id-1530089994045{margin-top: 10px;margin-right: -55px;margin-left: -55px;}#column-id-1530089994044{box-shadow: 0 0 0 0 #fff;}@media (min-width: 768px) and (max-width: 991px) {#sppb-addon-1530089994048 {}}@media (max-width: 767px) {#sppb-addon-1530089994048 {}}#sppb-addon-1530089994048 img{}</style>	</div>
+</div>
+</div></div></div></div></div></div></section><header id="sp-header"><div class="row"><div id="sp-menu" class="col-xs-12 col-sm-12 col-md-12"><div class="sp-column ">			<div class='sp-megamenu-wrapper'>
+				<a id="offcanvas-toggler" class="visible-sm visible-xs" aria-label="Helix Megamenu Options" href="#"><i class="fa fa-bars" aria-hidden="true" title="Helix Megamenu Options"></i></a>
+				<ul class="sp-megamenu-parent hidden-sm hidden-xs"><li class="sp-menu-item"><a  href="/index.php"  >Home</a></li><li class="sp-menu-item"><a  href="/index.php/about-us"  >About Us</a></li><li class="sp-menu-item sp-has-child"><a  href="#"  >Examination</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/examination/time-table"  >Time Table</a></li><li class="sp-menu-item sp-has-child"><a  href="#"  >Rank Holders</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/images/rankholder.pdf" rel="noopener noreferrer" target="_blank" >Internal Assessment</a></li><li class="sp-menu-item"><a  href="/index.php/examination/rank-holders/external"  >MU Examination</a></li></ul></div></div></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="#"  >Academics</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/academics/timetable"  >Timetable</a></li><li class="sp-menu-item sp-has-child"><a  href="/images/Syllabus/Comp_CBCGS_2016.pdf"  >Syllabus</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/images/2021/SEM-3-new.pdf" rel="noopener noreferrer" target="_blank" >Second Year</a></li><li class="sp-menu-item"><a  href="/images//2021/TE-rev2019syllabus.pdf" rel="noopener noreferrer" target="_blank" >Third Year</a></li><li class="sp-menu-item"><a  href="/images//2019/BE_Comp_Engg__CBCGS_Rev._2016.pdf" rel="noopener noreferrer" target="_blank" >Final Year</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/academics/corporate-advisory-board"  >Corporate Advisory Board</a></li><li class="sp-menu-item"><a  href="/index.php/academics/facilities"  >MOU</a></li><li class="sp-menu-item sp-has-child"><a  href="#"  >University Question Papers</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/academics/university-question-papers/second-year"  >Second Year</a></li><li class="sp-menu-item"><a  href="/index.php/academics/university-question-papers/third-year"  >Third Year</a></li><li class="sp-menu-item"><a  href="/index.php/academics/university-question-papers/final-year"  >Final Year</a></li></ul></div></div></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="#"  >Faculty</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/faculty/profile"  >Profile</a></li><li class="sp-menu-item"><a  href="/index.php/faculty/recognition"  >Recognition</a></li><li class="sp-menu-item sp-has-child"><a  href="#"  >Research</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/faculty/research/minor-grants"  >Minor Grants</a></li><li class="sp-menu-item"><a  href="/index.php/faculty/research/research-publications"  >Research Publications</a></li></ul></div></div></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="#"  >Student</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/student/recognition"  >Recognition</a></li><li class="sp-menu-item"><a  href="/index.php/student/undergraduate-project"  >Undergraduate Project</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="#"  >Co-Curricular Activities</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/co-curricular-activities/acm-student-chapter"  >ACM - Student Chapter</a></li><li class="sp-menu-item"><a  href="/index.php/co-curricular-activities/training-workshop"  >Guest Sessions</a></li><li class="sp-menu-item"><a  href="/index.php/co-curricular-activities/training-workshop-2"  >Alumni Interaction</a></li><li class="sp-menu-item"><a  href="/index.php/co-curricular-activities/innovex"  >Major Project / Mini Project</a></li><li class="sp-menu-item"><a  href="/index.php/co-curricular-activities/certification-program"  >Certification / Workshop / Outreach Program</a></li><li class="sp-menu-item"><a  href="/index.php/co-curricular-activities/industrial-visit"  >Industrial Visit</a></li><li class="sp-menu-item"><a  href="/index.php/co-curricular-activities/department-day"  >Department Day</a></li><li class="sp-menu-item"><a  href="/index.php/co-curricular-activities/programming-contest"  >Programming Contest</a></li><li class="sp-menu-item"><a  href="/index.php/co-curricular-activities/tech-other"  >Other</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child active"><a  href="#"  >Placement</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item current-item active"><a  href="/index.php/placement-internship/internship-record" rel="noopener noreferrer" target="_blank" >Internship Record</a></li><li class="sp-menu-item"><a  href="/index.php/placement-internship/placement-record"  >Placement Record</a></li></ul></div></div></li></ul>			</div>
+		</div></div></div></header><section id="sp-main-body"><div class="row"><div id="sp-component" class="col-sm-12 col-md-12"><div class="sp-column "><div id="system-message-container">
+	</div>
+
+<div id="sp-page-builder" class="sp-page-builder  page-35">
+
+	
+	<div class="page-content">
+				<section id="section-id-1546510315726" class="sppb-section "  ><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-md-12"><div id="column-id-1546510315725" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-1546510315729" class="clearfix" ><div class="sppb-addon sppb-addon-accordion "><h3 class="sppb-addon-title">Internship Record</h3><div class="sppb-addon-content"><div class="sppb-panel-group"><div class="sppb-panel sppb-panel-modern"><div class="sppb-panel-heading active"><span class="sppb-panel-title">Year 2021-22</span><span class="sppb-toggle-direction"><i class="fa fa-chevron-right"></i></span></div><div class="sppb-panel-collapse"><div class="sppb-panel-body"><div id="sppb-addon-1670831698177" class="clearfix" ><div class="sppb-addon sppb-addon-text-block 0  "><div class="sppb-addon-content"><table border="0" cellspacing="0"><colgroup width="92"></colgroup> <colgroup width="115"></colgroup> <colgroup span="7" width="92"></colgroup> <colgroup width="340"></colgroup>
+<tbody>
+<tr>
+<td align="left" valign="bottom"><b><span style="color: #000000;">Sr. No</span></b></td>
+<td align="left" valign="bottom"><b><span style="color: #000000;">Full Name</span></b></td>
+<td align="left" valign="bottom"><b><span style="color: #000000;">Company</span></b></td>
+<td align="left" valign="bottom"><b><span style="color: #000000;">Start Date</span></b></td>
+<td align="left" valign="bottom"><b><span style="color: #000000;">Duration </span></b></td>
+<td align="left" valign="bottom"><b><span style="color: #000000;">End Date</span></b></td>
+<td align="left" valign="bottom"><b><span style="color: #000000;">Stipend</span></b></td>
+<td align="left" valign="bottom"><b><span style="color: #000000;">Package</span></b></td>
+<td align="left" valign="bottom"><b><span style="color: #000000;">Location</span></b></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">1</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Yash Nage</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Toothsi</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">6 Jan 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">TIll FTE</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">25k</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">10 LPA</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Mumbai</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">2</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Deepankar Gupta</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">The Solar Labs</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">8 Dec 2021</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">6 months</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">8 June 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">15-20k</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">9 LPA</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Bangalore</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">230 A, 3rd Floor, 18th Main Rd, 6th Block, Bengaluru, 560095</span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">3</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Ayushman Pandita</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Evosys</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">17 Jan 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">3-6 months</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">15 May 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">10k</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">4 LPA</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Remote</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">4</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Aparna Sarawadekar</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Capgemini</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">1 Jan 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">2.5 months </span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">7.5 LPA</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Remote</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">5</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Jason Lobo</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Evosys</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">17 Jan 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">3 months</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">15 May 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">10k</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">4 LPA</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Remote</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">6</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Denvin Davis</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Capgemini</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">1 Jan 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">2.5 months </span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">7.5 LPA</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Remote</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">7</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Kunal Chaudhary</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Bentley Systems</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">17 Jan 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">6 months</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">15 July 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">25k</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">6.5 LPA</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Remote</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">8</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Piyush Sonar</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">SS&amp;C Technologies</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">03 Jan 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">31 July 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">30k</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">9.44 lpa</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Remote</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">9</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Kunal Jadhav</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Mindstix Software Labs</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">03 Jan 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">6 months</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">22k</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">6 LPA</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Remote</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">10</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Sonal Chaudhary</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">SS&amp;C Technologies</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">03 Jan 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">31 July 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">30k</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">9.44 lpa</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Remote</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">11</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Hayden Cordeiro</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">BrowserStack</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">04 Jan 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">6months</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">31 July 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">40k</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">15LPA</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Remote</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Principal Sign remaingin</span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">12</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Jivin Varghese</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">BrowserStack</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">04 Jan 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">6months</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">31 July 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">40k</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">15LPA</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Remote</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Principal Sign remaingin</span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">13</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Samuel Monteiro</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">ArconNet</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">14 Jan 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Full TIme Job</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">5.25 LPA</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Andheri East</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">14</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Snehal Chougule</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">ArconNet</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">14 Jan 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Full TIme Job</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">5.25 LPA</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+</tr>
+<tr>
+<td align="right" valign="bottom"><span style="color: #000000;">15</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Brian Pereria</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Netcore</span></td>
+<td align="right" valign="bottom"><span style="color: #000000;">04 Jan 2022</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Full TIme Job</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="left" valign="bottom"><span style="color: #000000;"></span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">5 LPA</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Remote</span></td>
+<td align="left" valign="bottom"><span style="color: #000000;">Principal Sign remaingin</span></td>
+</tr>
+</tbody>
+</table></div></div></div></div></div></div><div class="sppb-panel sppb-panel-modern"><div class="sppb-panel-heading"><span class="sppb-panel-title">Year 2020-21</span><span class="sppb-toggle-direction"><i class="fa fa-chevron-right"></i></span></div><div class="sppb-panel-collapse" style="display: none;"><div class="sppb-panel-body"><div id="sppb-addon-1582017763322" class="clearfix" ><div class="sppb-addon sppb-addon-text-block 0  "><div class="sppb-addon-content"><table style="margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;"><strong>Sr. no.</strong></span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;"><strong>Name</strong></span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;"><strong>Year Of Engineering</strong></span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;"><strong>Date of Internship letter issued</strong></span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;"><strong>Name of the company</strong></span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;"><strong>Internship&nbsp; starting from</strong></span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;"><strong>Internship&nbsp; completion date&nbsp;</strong></span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">1</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Akshay kumbhar</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">B.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">18-12-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Deltax</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-03-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-07-21</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">2</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Alan</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">B.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;"></span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Frappe</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-03-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-05-21</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">3</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Anuja Vaidya</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">T.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">12-02-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Olance India</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">12-02-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">28-03-21</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">4</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Christina Moraes</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">B.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">06-04-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">SS&amp;C Technologies</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">07-04-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">07-07-21</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">5</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Cynthia Mascarenhas</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">B.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">17-10-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Evosys</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">08-02-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">10-05-21</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">6</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Harshada Daund</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">T.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">07-01-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Century Rayon</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">06-12-19</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">06-01-20</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">7</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Jeslyn Jaison</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">T.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">11-09-19</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Health Wheels Pvt. Ltd. (Dial4242)</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">11-06-19</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">11-09-19</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">8</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Kevin Johnson&nbsp;</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">S.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">19-04-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Smart Humanoid&nbsp; &amp;&nbsp; Study Circle&nbsp;</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-01-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">15-04-20</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">9</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Piyush Sonar</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">T.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;"></span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Sequelstring Solutions And Consultancy Pvt Ltd</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">15-05-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">27-04-21</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">10</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Rahul Pudurkar</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">T.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">28-06-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Revolux Solutions pvt ltd</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">05-01-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">05-06-20</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">11</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Rahul Pudurkar</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">T.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">16-05-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Twin Tring LLP</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">16-03-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">16-05-20</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">12</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Rebecca Prasad</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">T.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">10-10-19</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Health Wheels Private Limited</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-06-19</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-09-19</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">13</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Rizwan Shaikh</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">T.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">16-05-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Twin Tring</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">16-03-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">16-05-20</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">14</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Ruchita Singh</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">B.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;"></span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Verzeo</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-09-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-11-20</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">15</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Rutuja Randive</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">B.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">06-04-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">SS&amp;C</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">07-04-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">07-07-21</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">16</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Rutuja Randive</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">T.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">30-11-19</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">WriteSoft</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-12-19</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">02-01-20</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">17</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Salil Fernandes</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">B.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">20-10-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">YWCA, Shelter Don Bosco</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">10-10-19</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">20-10-20</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">18</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Samara Pires</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">T.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">20-10-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">YWCA of Bombay</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">10-10-19</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">20-10-20</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">19</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Samarth Ganesh Khaire</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">T.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">03-04-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">THE SPARKS FOUNDATION</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-03-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-04-21</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Sangeeta Kaswan</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">B.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">18-01-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Evosys</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">08-02-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">17-05-21</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Sasha Pais</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">B.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">20-10-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">YWCA of Bombay</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">10-10-19</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">21-10-20</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">22</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Shawn Louis</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">T.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;"></span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Sequelstring Solution Pvt. Ltd.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-05-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-11-20</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">23</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Sonia Rodrigues</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">T.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">20-10-20</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Young Women's Christian Association of Bombay</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">10-10-19</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">20-10-20</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">24</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Vaibhav Mishra</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">T.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">10-10-19</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Health Wheels Private Limited</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-06-19</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">01-09-19</span></td>
+</tr>
+<tr>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">25</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">Vaishnavi Gadgil</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">B.E.</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">22-04-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">SS&amp;C DST</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">26-04-21</span></td>
+<td><span style="font-family: georgia, palatino; font-size: 12pt;">26-07-21</span></td>
+</tr>
+</tbody>
+</table></div></div></div></div></div></div><div class="sppb-panel sppb-panel-modern"><div class="sppb-panel-heading"><span class="sppb-panel-title">Year 2018-19</span><span class="sppb-toggle-direction"><i class="fa fa-chevron-right"></i></span></div><div class="sppb-panel-collapse" style="display: none;"><div class="sppb-panel-body"><div id="sppb-addon-1551940364713" class="clearfix" ><div class="sppb-addon sppb-addon-text-block 0  "><div class="sppb-addon-content"><table>
+<tbody>
+<tr>
+<td><strong>Sr. No</strong></td>
+<td><strong>Name Of Student</strong></td>
+<td><strong>Year Of Engineering</strong></td>
+<td><strong>Date Of Letter Issued</strong></td>
+<td><strong>Internship letter issued for company</strong></td>
+<td><strong>Duration of internship mentioned on letter</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Yash Mishra</td>
+<td>Second year</td>
+<td>3rd Aug 2018</td>
+<td>TCS</td>
+<td>26th June to 03rd Aug, 2018</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Steve Fernandis</td>
+<td>Third Year</td>
+<td>18th July</td>
+<td>iBall</td>
+<td>7th June to 11th July 2018</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Bhavya Lohiya</td>
+<td>Third Year</td>
+<td>4th March</td>
+<td>iFuture</td>
+<td>4th Feb to 4th March 2018</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Amruta Manjrekar</td>
+<td>Third Year</td>
+<td>5th May</td>
+<td>L &amp; T infotech</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Gladcy Nadar</td>
+<td>Third Year</td>
+<td>4th July</td>
+<td>Reliance industries ltd</td>
+<td>4th June to 4th July, 2018</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Akash Garule</td>
+<td>Final Year</td>
+<td>01/10/18</td>
+<td>Axis Consultancy</td>
+<td>June 2018 to October 2018</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Anto Cristopher</td>
+<td>Final Year</td>
+<td>01/10/18</td>
+<td>Axis Consultancy</td>
+<td>June 2018 to October 2018</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Jaffrey Joy</td>
+<td>Final Year</td>
+<td>01/10/18</td>
+<td>Axis Consultancy</td>
+<td>June 2018 to October 2018</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sean Dcruz</td>
+<td>Third Year</td>
+<td>01/05/18</td>
+<td>Courseplay by Firstventure Coorporation</td>
+<td>May 2018- June 2018</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Sean Dcruz</td>
+<td>Third Year</td>
+<td>01/12/18</td>
+<td>Crebaco Global Inc</td>
+<td>Dec 2018-Jan 2019</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Hansel Presley Saldanha</td>
+<td>Final Year</td>
+<td>7 Dec 18</td>
+<td>Aegis School of Data Science</td>
+<td>2 months</td>
+</tr>
+</tbody>
+</table></div></div></div></div></div></div><div class="sppb-panel sppb-panel-modern"><div class="sppb-panel-heading"><span class="sppb-panel-title">Year 2017-18</span><span class="sppb-toggle-direction"><i class="fa fa-chevron-right"></i></span></div><div class="sppb-panel-collapse" style="display: none;"><div class="sppb-panel-body"><div id="sppb-addon-1546510315755" class="clearfix" ><div class="sppb-addon sppb-addon-text-block 0  "><div class="sppb-addon-content"><table border="0" cellspacing="0"><colgroup span="7" width="85"></colgroup>
+<tbody>
+<tr>
+<td style="height: 33px; text-align: center;"><b><span style="font-family: Liberation Serif;">Sr No.</span></b></td>
+<td style="text-align: center;"><b><span style="font-family: Liberation Serif;">Name of Student</span></b></td>
+<td style="text-align: center;"><b><span style="font-family: Liberation Serif;">Year of <br />Engineering</span></b></td>
+<td style="text-align: center;"><b><span style="font-family: Liberation Serif;">Date of<br />Issued Letter</span></b></td>
+<td style="text-align: center;"><b><span style="font-family: Liberation Serif;">Company Name</span></b></td>
+<td style="text-align: center;"><b><span style="font-family: Liberation Serif;">Duration of <br />Internship</span></b></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">1</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Anushka Rajan</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">June 2nd 2016</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Godrej</span> Infotech</td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">5/6/16 to 8/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">2</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Jeffin Devasia</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">June 6th 2016</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">IITB</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">5/6/16 to 8/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">3</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Priyanka Uttekar</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">June 6th 2016</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">IITB</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">5/6/16 to 8/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">4</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Jennifer Johnson</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">June 6th 2016</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">IITB</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">5/6/16 to 8/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">5</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Manish gowardipe</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">June 6th 2016</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">IITB</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">5/6/16 to 8/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">6</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Glendon Rodrigues</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">June 6th 2016</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">IITB</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">5/6/16 to 8/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">7</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Joel Badigar</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">June 6th 2016</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">IITB</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">5/6/16 to 8/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">8</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Rajitha chettiar</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">June 6th 2016</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">IITB</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">5/6/16 to 8/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">9</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Melisha Dsouza</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">June 6th 2016</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">IITB</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">5/6/16 to 8/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">10</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Spencer Kinny</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">June 6th 2016</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">IITB</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">5/6/16 to 8/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">11</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Wincy Willy</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">June 6th 2016</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">IITB</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">5/6/16 to 8/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">12</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Melisha Dsouza</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">June 15th 2016</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">IITB</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">5/6/16 to 8/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">13</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Glen Martin</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Didimos Web Solutions</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">10/6/16 to 10/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 47px; text-align: right;"><span style="font-family: Liberation Serif;">14</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Prathamesh Kesarker</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">MAD Infotech, Mulund</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">6/6/16 to 10/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">15</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Pratik Mallya</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">DBIT, Internal Internship</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">6/6/16 to 10/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">16</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Alistair Lobo</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">DBIT, Internal Internship</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">6/6/16 to 10/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">17</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Abdul Rehman</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">3rd year</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">DBIT, Internal Internship</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">6/6/16 to 10/7/16</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">18</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Nikhil Desai</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">HP</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">7/3/17 to 8/3/17</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">19</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Gary Mendonca</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Balcony Technologies</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">1/7/17 to 31/6/18</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">20</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Swapnil Naik</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Webineering</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">20/4/17 to 20/10/17</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">21</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Savio Varghese</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Airpay</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">15/6/17 to 15/7/17</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">22</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Vivek Douza</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">AppLab</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">15/6/17 to 22/6/17</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">23</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Dean Joyson</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">AppLab</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">15/6/17 to 22/6/17</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">24</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Joseph Sunil</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">AppLab</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">15/6/17 to 22/6/17</span></td>
+</tr>
+<tr>
+<td style="height: 32px; text-align: right;"><span style="font-family: Liberation Serif;">25</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Blessy Varghese</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Camlin Fine Sciences</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">6/6/17 to 7/6/17</span></td>
+</tr>
+<tr>
+<td style="height: 47px; text-align: right;"><span style="font-family: Liberation Serif;">26</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Sarita Saldanha</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Reliance Industries Limited</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">14/6/17 to 14/7/17</span></td>
+</tr>
+<tr>
+<td style="height: 47px; text-align: right;"><span style="font-family: Liberation Serif;">27</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Sisil Sunny</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">N.A</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">Reliance Industries Limited</span></td>
+<td style="text-align: left;"><span style="font-family: Liberation Serif;">9/6/17 to 14/7/17</span></td>
+</tr>
+</tbody>
+</table></div></div></div></div></div></div><div class="sppb-panel sppb-panel-modern"><div class="sppb-panel-heading"><span class="sppb-panel-title">Year 2016-17</span><span class="sppb-toggle-direction"><i class="fa fa-chevron-right"></i></span></div><div class="sppb-panel-collapse" style="display: none;"><div class="sppb-panel-body"><div id="sppb-addon-1551940443896" class="clearfix" ><div class="sppb-addon sppb-addon-text-block 0  "><div class="sppb-addon-content"><table>
+<tbody>
+<tr>
+<td><strong>Sr No.</strong></td>
+<td><strong>Name</strong></td>
+<td><strong>Comapny Name</strong></td>
+<td><strong>Start Date</strong></td>
+<td><strong>End Date</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Glendon Rodrigues</td>
+<td>Asha Mumbai</td>
+<td>8th June 2016</td>
+<td>4th July 2016</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Glen Martin</td>
+<td>Didimos Web Solution</td>
+<td>10th June 2016</td>
+<td>10th June 2016</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Jennifer Johnson</td>
+<td>Asha Mumbai</td>
+<td>8th June 2016</td>
+<td>4th July 2016</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Mallik Abdul Rehman</td>
+<td>A Website for Don Bosco Centre for Learning (DBCL) Campus</td>
+<td>6th June 2016</td>
+<td>30th June 2016</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Melisha D’souza</td>
+<td>Asha Mumbai</td>
+<td>8th June 2016</td>
+<td>4th July 2016</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Pratik P. Mallya</td>
+<td>A Website for Don Bosco Centre for Learning (DBCL) Campus</td>
+<td>6th June 2016</td>
+<td>30th June 2016</td>
+</tr>
+</tbody>
+</table></div></div></div></div></div></div><div class="sppb-panel sppb-panel-modern"><div class="sppb-panel-heading"><span class="sppb-panel-title">Year 2019-20</span><span class="sppb-toggle-direction"><i class="fa fa-chevron-right"></i></span></div><div class="sppb-panel-collapse" style="display: none;"><div class="sppb-panel-body"><div id="sppb-addon-1627233080280" class="clearfix" ><div class="sppb-addon sppb-addon-text-block 0  "><div class="sppb-addon-content"><table>
+<tbody>
+<tr>
+<td><strong>Sr. No</strong></td>
+<td><strong>Name Of Student</strong></td>
+<td><strong>Year Of Engineering</strong></td>
+<td><strong>Date Of Letter Issued</strong></td>
+<td><strong>Internship letter issued for company</strong></td>
+<td><strong>Duration of internship mentioned on letter</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Yash Bitla</td>
+<td>Second year</td>
+<td>&nbsp;</td>
+<td>Mahindra and Mahindra</td>
+<td>1st Dec 2019- 14th Jan 2020</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Pradnya Tendolkar</td>
+<td>Second year</td>
+<td>&nbsp;</td>
+<td>C-Edge Technologies Limited(A TCS – SBI Enterprise)</td>
+<td>8th June 2019 – 8th July 2019</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Varun Soni</td>
+<td>Second year</td>
+<td>&nbsp;</td>
+<td>Reliance industries ltd</td>
+<td>1st June 2019 – 30th June</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Manmeet singh Khurana</td>
+<td>Third Year</td>
+<td>&nbsp;</td>
+<td>DGM IT of Panjab and Maharashtra Co-op Bank Ltd.</td>
+<td>3rd Jun 2019 – 6th July 2019</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Siddhesh Vilas kale</td>
+<td>3rd yr</td>
+<td>43677</td>
+<td>Tata Consultancy and services</td>
+<td>36 days</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Jovin Nicholas</td>
+<td>3rd year</td>
+<td>31-06-2019</td>
+<td>Servify</td>
+<td>45 days</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Hansel Presley Saldanha</td>
+<td>Final Year</td>
+<td>43647</td>
+<td>Playtime Media</td>
+<td>1½ months</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Sean Dcruz</td>
+<td>Third Year</td>
+<td>43617</td>
+<td>Leap Beyond</td>
+<td>June 2019-July 2019</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Sean Dcruz</td>
+<td>Third Year</td>
+<td>43435</td>
+<td>Linkedin</td>
+<td>Dec 2018-Dec 2019</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Elana Alphonso</td>
+<td>Third Year</td>
+<td>&nbsp;</td>
+<td>Prince Pipes and Fitting pvt.limited</td>
+<td>17th June 2019 – 17th July 2019</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Harshada Daund</td>
+<td>Third Year</td>
+<td>07th January 2020</td>
+<td>Aditya Birla</td>
+<td>6th December to 6th January 2020</td>
+</tr>
+</tbody>
+</table></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></section>			</div>
+</div>
+</div></div></div></section><footer id="sp-footer"><div class="container"><div class="row"><div id="sp-footer1" class="col-sm-12 col-md-12"><div class="sp-column "><span class="sp-copyright">© 2018 Department Of Computer Engineering. All Rights Reserved. </span></div></div></div></div></footer>            </div> <!-- /.body-innerwrapper -->
+        </div> <!-- /.body-innerwrapper -->
+
+        <!-- Off Canvas Menu -->
+        <div class="offcanvas-menu">
+            <a href="#" class="close-offcanvas" aria-label="Close"><i class="fa fa-remove" aria-hidden="true" title="HELIX_CLOSE_MENU"></i></a>
+            <div class="offcanvas-inner">
+                                  <div class="sp-module "><div class="sp-module-content"><ul class="nav menu">
+<li class="item-101"><a href="/index.php" > Home</a></li><li class="item-102"><a href="/index.php/about-us" > About Us</a></li><li class="item-106  deeper parent">		<a  href="#"  > Examination</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-106"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-106"><li class="item-115"><a href="/index.php/examination/time-table" > Time Table</a></li><li class="item-123  deeper parent">		<a  href="#"  > Rank Holders</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-123"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-123"><li class="item-143">		<a href="/images/rankholder.pdf" rel="noopener noreferrer" target="_blank" > Internal Assessment</a></li><li class="item-144"><a href="/index.php/examination/rank-holders/external" > MU Examination</a></li></ul></li></ul></li><li class="item-103  deeper parent">		<a  href="#"  > Academics</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-103"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-103"><li class="item-129"><a href="/index.php/academics/timetable" > Timetable</a></li><li class="item-130  deeper parent">		<a  href="/images/Syllabus/Comp_CBCGS_2016.pdf"  > Syllabus</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-130"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-130"><li class="item-135">		<a href="/images/2021/SEM-3-new.pdf" rel="noopener noreferrer" target="_blank" > Second Year</a></li><li class="item-136">		<a href="/images//2021/TE-rev2019syllabus.pdf" rel="noopener noreferrer" target="_blank" > Third Year</a></li><li class="item-137">		<a href="/images//2019/BE_Comp_Engg__CBCGS_Rev._2016.pdf" rel="noopener noreferrer" target="_blank" > Final Year</a></li></ul></li><li class="item-131"><a href="/index.php/academics/corporate-advisory-board" > Corporate Advisory Board</a></li><li class="item-128"><a href="/index.php/academics/facilities" > MOU</a></li><li class="item-133  deeper parent">		<a  href="#"  > University Question Papers</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-133"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-133"><li class="item-140"><a href="/index.php/academics/university-question-papers/second-year" > Second Year</a></li><li class="item-141"><a href="/index.php/academics/university-question-papers/third-year" > Third Year</a></li><li class="item-142"><a href="/index.php/academics/university-question-papers/final-year" > Final Year</a></li></ul></li></ul></li><li class="item-104  deeper parent">		<a  href="#"  > Faculty</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-104"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-104"><li class="item-110"><a href="/index.php/faculty/profile" > Profile</a></li><li class="item-111"><a href="/index.php/faculty/recognition" > Recognition</a></li><li class="item-112  deeper parent">		<a  href="#"  > Research</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-112"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-112"><li class="item-113"><a href="/index.php/faculty/research/minor-grants" > Minor Grants</a></li><li class="item-229"><a href="/index.php/faculty/research/research-publications" > Research Publications</a></li></ul></li></ul></li><li class="item-105  deeper parent">		<a  href="#"  > Student</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-105"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-105"><li class="item-126"><a href="/index.php/student/recognition" > Recognition</a></li><li class="item-127"><a href="/index.php/student/undergraduate-project" > Undergraduate Project</a></li></ul></li><li class="item-107  deeper parent">		<a  href="#"  > Co-Curricular Activities</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-107"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-107"><li class="item-148"><a href="/index.php/co-curricular-activities/acm-student-chapter" > ACM - Student Chapter</a></li><li class="item-120"><a href="/index.php/co-curricular-activities/training-workshop" > Guest Sessions</a></li><li class="item-228"><a href="/index.php/co-curricular-activities/training-workshop-2" > Alumni Interaction</a></li><li class="item-152"><a href="/index.php/co-curricular-activities/innovex" > Major Project / Mini Project</a></li><li class="item-121"><a href="/index.php/co-curricular-activities/certification-program" > Certification / Workshop / Outreach Program</a></li><li class="item-122"><a href="/index.php/co-curricular-activities/industrial-visit" > Industrial Visit</a></li><li class="item-151"><a href="/index.php/co-curricular-activities/department-day" > Department Day</a></li><li class="item-154"><a href="/index.php/co-curricular-activities/programming-contest" > Programming Contest</a></li><li class="item-184"><a href="/index.php/co-curricular-activities/tech-other" > Other</a></li></ul></li><li class="item-108  active deeper parent">		<a  href="#"  > Placement</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-108"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-108"><li class="item-116  current active"><a href="/index.php/placement-internship/internship-record" target="_blank" > Internship Record</a></li><li class="item-117"><a href="/index.php/placement-internship/placement-record" > Placement Record</a></li></ul></li></ul>
+</div></div>
+                            </div> <!-- /.offcanvas-inner -->
+        </div> <!-- /.offcanvas-menu -->
+
+        
+        
+        
+        <!-- Preloader -->
+        
+
+        <!-- Go to top -->
+                    <a href="javascript:void(0)" class="scrollup" aria-label="Go To Top">&nbsp;</a>
+        
+    </body>
 </html>
