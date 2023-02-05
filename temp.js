@@ -122,7 +122,7 @@ nav.innerHTML = `<div class="container-fluid">
                     >Research</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <li>
-                      <a class="dropdown-item" href="#">Minor Grants</a>
+                      <a class="dropdown-item" href="/faculty/minor_grants.html">Minor Grants</a>
                       </li>
                       <li>
                       <a class="dropdown-item" href="#">Research Publications</a>
