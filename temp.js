@@ -180,7 +180,7 @@ nav.innerHTML = `<div class="container-fluid">
                   <li>
                     <a
                       class="dropdown-item"
-                      href="/placement&internship/intenship.html"
+                      href="/placement&internship/internship.html"
                       >Internship Record</a
                     >
                   </li>
