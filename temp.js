@@ -163,6 +163,7 @@ nav.innerHTML = `<div class="container-fluid">
                 <li><a class="dropdown-item" href="https://dbit.acm.org/">ACM Student Chapter</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Alumni Interaction</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/events.html">Guest Sessions</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/industrial_visit.html">Industrial Visits</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/clubs.html">Certification/Workshops/Outreachy Program</a></li>
                 </ul>
               </li>
