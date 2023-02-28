@@ -162,8 +162,8 @@ nav.innerHTML = `<div class="container-fluid">
                 <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="https://dbit.acm.org/">ACM Student Chapter</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
-                <li><a class="dropdown-item" href="/cocurricular/events.html">Events</a></li>
-                <li><a class="dropdown-item" href="/cocurricular/clubs.html">Clubs</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/events.html">Guest Sessions</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/clubs.html">Alumni Interaction</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
