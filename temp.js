@@ -153,6 +153,7 @@ nav.innerHTML = `<div class="container-fluid">
                 <li><a class="dropdown-item" href="/cocurricular/industrial_visit.html">Industrial Visits</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/events.html">Certification & Workshop programs</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/programming_contest.html">Programming Contests</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/others.html">Others</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
