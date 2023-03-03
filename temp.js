@@ -145,6 +145,8 @@ nav.innerHTML = `<div class="container-fluid">
                   CO-CURRICULAR ACTIVITIES
                 </a>
                 <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/cocurricular/newsletter.html">News Letters</a></li>
+                
                 <li><a class="dropdown-item" href="https://dbit.acm.org/">ACM Student Chapter</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/alumni.html">Alumni Interaction</a></li>
                 <li><a class="dropdown-item" href="/cocurricular/guestsession.html">Guest Sessions</a></li>
