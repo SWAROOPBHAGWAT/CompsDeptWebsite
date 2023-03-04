@@ -40,7 +40,7 @@ footer.innerHTML =
          > <a href="https://www.dbit.in/nisp.html" class="text-reset" style="text-decoration: none;  text-align: left;">NISP</a>
        </p>
        <p>
-         > <a href="/students/contributors.html" class="text-reset" style="text-decoration: none;  text-align: left;">CONTRIBUTORS</a>
+         > <a href="/footerlink/contributor.html" class="text-reset" style="text-decoration: none;  text-align: left;">CONTRIBUTORS</a>
        </p>
      </div>
      <!-- Grid column -->
