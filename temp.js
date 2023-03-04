@@ -93,6 +93,7 @@ nav.innerHTML = `<div class="container-fluid">
                   <li><a class="dropdown-item" href="/academics/exam-calendar.html">Exam Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/timetable.html">Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/academic_syllabus.html">Syllabus</a></li>
+                  <li><a class="dropdown-item" href="/academics/university_question_papers.html">University Question Papers</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
