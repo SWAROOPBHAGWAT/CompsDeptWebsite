@@ -49,7 +49,7 @@ footer.innerHTML =
      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="color:#e5e5e5; text-align: left;
      ">
        <!-- Links -->
-       <p  style=" text-align: left;"><b><h5 style=" text-align: left;" >Department of Electronics & Telecommunication Engineering</h5></b><br>
+       <p  style=" text-align: left;"><b><h5 style=" text-align: left;" >Department of Computer Science Engineering </h5></b><br>
 
          1st Floor, C Wing <br>
          
